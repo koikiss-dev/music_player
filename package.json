@@ -1,0 +1,52 @@
+{
+  "name": "music_player",
+  "description": "Music player",
+  "author": "Yako (koikiss-dev)",
+  "license": "MIT",
+  "repository": "https://github.com/koikiss-dev/music-player",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-icons": "^1.3.2",
+    "@radix-ui/react-scroll-area": "^1.2.1",
+    "@radix-ui/react-slider": "^1.2.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@remixicon/react": "^4.5.0",
+    "@types/howler": "^2.2.12",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "colorthief": "^2.6.0",
+    "howler": "^2.2.4",
+    "lucide-react": "^0.468.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "vaul": "^1.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "19.0.1",
+    "@types/react-dom": "19.0.1",
+    "@vitejs/plugin-react-swc": "^3.7.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.16.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "globals": "^15.13.0",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "typescript": "5.7.2",
+    "typescript-eslint": "^8.17.0",
+    "vite": "^6.0.3"
+  }
+}
